@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact">
+  <meta name="author" content="Anna Marinova">
+  <title>Final Project</title>
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Theme CSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Custom Fonts -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+ <body>
+  <div id="header" class="page-header">
+    <h1> Culture Beat Magazine</h1>
+    <img id="lady" src="img/logo.png" alt="lady image">
+  </div>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!--Navigation -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <!--Hamburger menu -->
+
+        <a href="#" class="burger">
+          <div class="bar bun-top"></div>
+          <div class="bar lettuce"></div>
+          <div class="bar mustard"></div>
+          <div class="bar ketchup"></div>
+          <div class="bar patty"></div>
+          <div class="bar bun-bot"></div>
+        </a>
+        <!--Hamburger menu -->
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Culture</a></li>
+          <li><a href="art.html">Art</a></li>
+          <li class="dropdown"> <a href="articles.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Articles<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="articles.html">Visual Arts</a></li>
+              <li><a href="articles.html">Music and Performance</a></li>
+              <li><a href="articles.html">Movies and TV</a></li>
+            </ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#"><i class="fa fa-search hidden-lg" aria-hidden="true"></i></a></li>
+        </ul>
+        <ul class="nav navbar-nav pull-right" id="subscription">
+
+          <li class="facebook"><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li class="twitter"><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li class="instagram"><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li class="dribbble"><a href="https://www.dribbble.com/" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+          <li><a href="#">Subscribe</a></li>
+          <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Navigation -->
+   <div class="container">
+
+    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+<fieldset>
+
+<!-- Form Name -->
+<legend id="contactus">Contact Us</legend>
+  <a href="https://codepen.io/annamardesigns/pen/appxdy" target="_blank"><div id="letter"></div></a>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">First Name</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >Last Name</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+       <div class="form-group">
+  <label class="col-md-4 control-label">E-Mail</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+  <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+
+<!-- Text input-->
+       
+<div class="form-group">
+  <label class="col-md-4 control-label">Phone #</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+  <input name="phone" placeholder="(845)555-1212" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label">Your web site or blog</label>  
+   <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-globe"></i></span>
+  <input name="business" placeholder="www.yourweb.com" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+
+<!-- radio checks -->
+ <div class="form-group">
+                        <label class="col-md-4 control-label">Do you contact us for business purposes?</label>
+                        <div class="col-md-4">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="hosting" value="yes" /> Yes
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="hosting" value="no" /> No
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+<!-- Text area -->
+  
+<div class="form-group">
+  <label class="col-md-4 control-label">Your message</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+        	<textarea class="form-control" name="comment" placeholder="Your message"></textarea>
+  </div>
+  </div>
+</div>
+
+<!-- Success message -->
+<div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4">
+    <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</div>
+  <!-- /.container -->
+   
+    <!--Footer -->
+      <div id="footer">
+    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+      <h3>Culture Beat Magazine</h3>
+        <p>
+          <a href="https://www.twitter.com/" target="_blank">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="https://www.dribbble.com/" target="_blank">
+            <i class="fa fa-dribbble"></i>
+          </a>
+        </p>
+      </div>
+        <div id="foot1">
+        <ul class="col-lg-3 col-md-4 col-sm-6 col-xs-12" style="list-style:none;">
+        <li><a href="#!">Media Kit</a></li>
+        <li><a href="#!">Advertise Online</a></li>
+        <li><a href="#!">Give a Gift</a></li>
+        <li><a href="#!">About Our Ads</a></li>
+        </ul>
+          </div>
+        <div id="foot2">
+        <ul class="col-lg-3 col-md-4 col-sm-6 col-xs-12" style="list-style:none;">
+        <li><a href="#!">Jobs</a></li>
+        <li><a href="#!">Contact</a></li>
+        <li><a href="#!">Subscribe</a></li>
+        <li><a href="#!">Customer Service</a></li>
+        </ul>
+          </div>
+         <div id="foot3">
+         <ul class="col-lg-3 col-md-4 col-sm-6 col-xs-12" style="list-style:none;">
+         <li><a href="#!">Privacy Policy</a></li>
+         <li><a href="#!">Terms of Use</a></li>
+         <li><a href="#!">Site Map</a></li>
+         <li><a href="#!">Being Green</a></li>
+            </ul>
+           </div>
+        <p class="copyright">© Copyright 2017. All Rights Reserved. Created by <a href="#!" class="effect">AnnaMarDesigns</a></p>
+</div>
+  
+      <!--Footer -->
+
+    
+    
+  
+   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script>
+       document.querySelector( '.burger' ).addEventListener( 'click', function ( e ) {
+  e.preventDefault;
+  this.className = this.className === 'burger' ? 'burger on' : 'burger';
+});
+      </script>
+
+</body>
+
+</html>
